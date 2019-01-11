@@ -89,6 +89,15 @@ p {
     margin: 25px 0;
 }
 
+.jumbo-img h1, .jumbo-img p {
+    margin: 10px 20px;
+}
+
+.jumbo-border {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
