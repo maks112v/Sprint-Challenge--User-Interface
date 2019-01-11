@@ -66,6 +66,12 @@ p {
     line-height: 1.4;
 }
 
+@keyframes rotation {
+    0% {transform: rotate(0deg); opacity: .33;}
+    25%, 50% {transform: rotate(180deg); opacity: .66;}
+    75%, 100% {transform: rotate(360deg); opacity: 1;}
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -183,7 +189,6 @@ footer nav a {
     padding: 10px 0;
     margin: 10px 5px;
     border-bottom: 2px dashed black;
-
 }
 
 .card img {
@@ -202,42 +207,60 @@ footer nav a {
     margin: 20px 30px;
 }
 
+.box {
+    animation-name: rotation;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 0;
+    opacity: 0;
+    animation-fill-mode: forwards; 
+}
+
 .box1 {
     background-color: teal;
 }
 
 .box2 {
     background-color: gold;
+    animation-delay: .1s;
 }
 
 .box3 {
     background-color: cadetblue;
+    animation-delay: .2s;
 }
 
 .box4 {
     background-color: coral;
+    animation-delay: .3s;
 }
 
 .box5 {
     background-color: crimson;
+    animation-delay: .4s;
 }
 
 .box6 {
     background-color: forestgreen;
+    animation-delay: .5s;
 }
 
 .box7 {
     background-color: darkorchid;
+    animation-delay: .6s;
 }
 
 .box8 {
     background-color: hotpink;
+    animation-delay: .7s;
 }
 
 .box9 {
     background-color: indigo;
+    animation-delay: .8s;
 }
 
 .box10 {
     background-color: dodgerblue;
+    animation-delay: .9s;
 }
