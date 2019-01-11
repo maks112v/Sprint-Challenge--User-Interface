@@ -189,6 +189,10 @@ footer nav a {
     border-radius: 5px;
 }
 
+.cta {
+    margin: 20px 30px;
+}
+
 .box1 {
     background-color: teal;
 }
